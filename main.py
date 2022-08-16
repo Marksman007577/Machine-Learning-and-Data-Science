@@ -1,16 +1,30 @@
-# This is a sample Python script.
+import numpy as np
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+num_list = [[5, 10, 15], [20, 25, 30], [35, 40, 45]]
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+arr = np.array(num_list)
+arr1 = arr[:2, :2]
+arr2 = arr[1:3, :2]
+arr3 = arr[:2, 1:3]
+arr4 = arr[1:3, 1:3]
+arr5 = np.sqrt(arr)
+arr6 = np.log(arr)
+arr7 = np.sum(arr, axis=0)
+arr8 = np.sum(arr, axis=1)
+print(arr)
+print("")
+print(arr1)
+print("")
+print(arr2)
+print("")
+print(arr3)
+print("")
+print(arr4)
+print("")
+print(arr5)
+print("")
+print(arr6)
+print("")
+print(arr7)
+print("")
+print(arr8)
