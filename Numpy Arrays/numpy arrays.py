@@ -17,7 +17,8 @@ print(num_arr)
 
 # TASK: Use numpy to check the total remaining in the account after the series of transactions.
 # NOTE: Many different ways to do this!
-account_transactions = np.array([100,-200,300,-400,100,100,-230,450,500,2000])
+account_transactions = np.array([100, -200, 300, -400, 100, 100, -230, 450, 500, 2000])
 
 account_total = account_transactions.sum()
 print(account_total)
+
