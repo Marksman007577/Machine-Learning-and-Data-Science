@@ -5,10 +5,10 @@ import pandas as pd
 np.random.seed(101)
 my_data = np.random.randint(0, 101, (4, 3))
 
-my_index = ['CA', 'NY', 'AZ', 'TX']
+my_row = ['CA', 'NY', 'AZ', 'TX']
 my_column = ['JAN', 'FEB', 'MAR']
 
-df = pd.DataFrame(data=my_data, index=my_index, columns=my_column)
+df = pd.DataFrame(data=my_data, index=my_row, columns=my_column)
 print(df)
 
 df.info()
